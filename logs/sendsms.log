@@ -1,0 +1,48 @@
+2024-06-25 09:26:35.167  INFO 17276 --- [main] com.intelligentsia.isms.IsmsApplication  : Starting IsmsApplication using Java 1.8.0_202 on FINTECH with PID 17276 (C:\Users\INTELLIGENTSIA SA\Desktop\isms2.7.18\target\classes started by INTELLIGENTSIA SA in C:\Users\INTELLIGENTSIA SA\Desktop\isms2.7.18)
+2024-06-25 09:26:35.168  INFO 17276 --- [main] com.intelligentsia.isms.IsmsApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-06-25 09:26:35.815  INFO 17276 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b7aff7c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-25 09:26:35.928  INFO 17276 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-06-25 09:26:36.223  INFO 17276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2024-06-25 09:26:36.243  INFO 17276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-25 09:26:36.244  INFO 17276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-25 09:26:36.462  INFO 17276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-25 09:26:36.462  INFO 17276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1270 ms
+2024-06-25 09:26:36.555  WARN 17276 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b9c0b0f6-4efd-4615-a317-f587a0b9dcd5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-25 09:26:36.595  INFO 17276 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3b36e000, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@333cb916, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fd1660, org.springframework.security.web.header.HeaderWriterFilter@4c2869a9, org.springframework.security.web.authentication.logout.LogoutFilter@65bcf7c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e8604bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66c83fc8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@629ae7e, org.springframework.security.web.session.SessionManagementFilter@2a27cb34, org.springframework.security.web.access.ExceptionTranslationFilter@aac3f4e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ab2710]
+2024-06-25 09:26:36.852  INFO 17276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2024-06-25 09:26:36.857  INFO 17276 --- [main] com.intelligentsia.isms.IsmsApplication  : Started IsmsApplication in 2.024 seconds (JVM running for 4.353)
+2024-06-25 09:26:46.723  INFO 17276 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-25 09:26:46.723  INFO 17276 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-25 09:26:46.724  INFO 17276 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-25 09:26:46.747  INFO 17276 --- [http-nio-8084-exec-1] c.i.isms.controller.SendSMSGet           : Exécution de la requête : http://192.168.8.122:8084/smsGatwear/rest/sms/sendSimpleSMS provenant de l'adresse ip 192.168.8.117
+2024-06-25 09:26:51.796  INFO 17276 --- [http-nio-8084-exec-1] c.i.isms.controller.SendSMSGet           : Retout ISMS : 403 Forbidden: "{"status":"error","message":"[HTTP 400] Unable to create record: The number +23769378XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +23769378XXXX at twilio.com\/user\/account\/phone-numbers\/verified, or purchase a Twilio number to send messages to unverified numbers"}"
+2024-06-25 09:26:51.796 ERROR 17276 --- [http-nio-8084-exec-1] c.i.isms.controller.SendSMSGet           : Echec lors de l'envoi du SMS
+2024-06-25 09:31:19.272  INFO 10704 --- [main] com.intelligentsia.isms.IsmsApplication  : Starting IsmsApplication using Java 1.8.0_202 on FINTECH with PID 10704 (C:\Users\INTELLIGENTSIA SA\Desktop\isms2.7.18\target\classes started by INTELLIGENTSIA SA in C:\Users\INTELLIGENTSIA SA\Desktop\isms2.7.18)
+2024-06-25 09:31:19.274  INFO 10704 --- [main] com.intelligentsia.isms.IsmsApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-06-25 09:31:19.663  INFO 10704 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f6b064de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-25 09:31:19.685  INFO 10704 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-06-25 09:31:19.806  INFO 10704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2024-06-25 09:31:19.810  INFO 10704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-25 09:31:19.810  INFO 10704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-25 09:31:19.864  INFO 10704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-25 09:31:19.864  INFO 10704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 566 ms
+2024-06-25 09:31:19.936  WARN 10704 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 109b7e81-33ae-43ef-8e44-aa0b7cc3c752
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-25 09:31:19.975  INFO 10704 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1931d99, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a9950f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ed38226, org.springframework.security.web.header.HeaderWriterFilter@64aad6db, org.springframework.security.web.authentication.logout.LogoutFilter@3cbcd8f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74ad8d05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16c8b7bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ad54c55, org.springframework.security.web.session.SessionManagementFilter@40368a46, org.springframework.security.web.access.ExceptionTranslationFilter@4a6c18ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@105b693d]
+2024-06-25 09:31:20.201  INFO 10704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2024-06-25 09:31:20.206  INFO 10704 --- [main] com.intelligentsia.isms.IsmsApplication  : Started IsmsApplication in 1.149 seconds (JVM running for 1.538)
+2024-06-25 09:31:40.723  INFO 10704 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-25 09:31:40.724  INFO 10704 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-25 09:31:40.724  INFO 10704 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-25 09:31:40.744  INFO 10704 --- [http-nio-8084-exec-1] c.i.isms.controller.SendSMSGet           : Exécution de la requête : http://192.168.8.122:8084/smsGatwear/rest/sms/sendSimpleSMS provenant de l'adresse ip 192.168.8.117 avec les parameters paiementchanel=SS&paiementpaterne=SS&phone=237693782113&Operation=AFB&message=Le+nouveau+PIN+de+votre+carte+588663******0811+est+1964.+Veuillez+le+modifier+dans+un+d0xc30xa9lais+de+48+heures.
+2024-06-25 09:31:50.648  INFO 10704 --- [http-nio-8084-exec-1] c.i.isms.controller.SendSMSGet           : Retout ISMS : 403 Forbidden: "{"status":"error","message":"[HTTP 400] Unable to create record: The number +23769378XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +23769378XXXX at twilio.com\/user\/account\/phone-numbers\/verified, or purchase a Twilio number to send messages to unverified numbers"}"
+2024-06-25 09:31:50.648 ERROR 10704 --- [http-nio-8084-exec-1] c.i.isms.controller.SendSMSGet           : Echec lors de l'envoi du SMS
